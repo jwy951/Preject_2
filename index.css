@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: #508AA8;
+}
+h2{
+    text-align: center;
+    color: #FAA916;
+}
+#first, #second{
+    display: flex;
+    justify-content: space-around;
+}
+#first > div, #second > div{
+    height: 200px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 15 px solid #FAA916;
+}
+#first>div:first-child:hover{
+    color: #FAA916;
+    border-bottom: 15 px solid black;
+}
+#second>div:first-child:hover{
+    color: #faa916;
+    border-bottom: 15 px solid black;
+    text-shadow: none;
+}
+#second>div:hover{
+    text-shadow: 5pxz 5px 1 px#FAA916;
+}
